@@ -1,0 +1,111 @@
+body{
+    background: rgb(255, 255, 255);
+    height: 100vh;
+    color: seashell;
+}
+
+nav{
+    background-color: rgb(0,28,44);
+}
+.search-form{
+    width: 50%;;
+}
+#sidebar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    box-shadow: -1px 0 0 black;
+    max-width: 10vw;
+}
+#sidebar .nav-item{
+    text-align: center;
+    padding: 25px 0;
+}
+#sidebar .nav-item a{
+    color: rgb(255, 255, 255);
+}
+
+#sidebar .nav-item a.active{
+    color: rgb(4, 161, 252);
+}
+.vertical-nav{
+    margin-top: 20vh;
+}
+.logo{
+    max-height: 50px;
+    margin: 15px 25px;
+    border-radius: 50%;
+}
+a.navbar-brand{
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+section{
+    margin: 10px;
+}
+.main{
+    padding: 2em;
+    padding-top: calc(4rem + 74px);
+}
+
+.main .first-row, .main .second-row{
+    padding-bottom: 3rem;
+}
+
+.main .row .card {
+    height: 100%;
+}
+
+.card{
+    border: 0;
+    box-shadow: 2px 0 10px rgb(0,56,82);
+    max-height: 100%;
+}
+.card-header{
+    background: rgb(0,56,82);
+    font-weight: 700;
+    padding: 20px;
+}
+.card-body{
+    padding: 0.5rem;
+    font-size: 12px;
+}
+
+#recently-posted .card img{
+    padding-top: 0.5rem;
+}
+.stats .card-text{
+    padding-top: 5px;
+    padding-left: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+
+}
+.img-container{
+    height: 120px;
+    width: 120px;
+    text-emphasis: center;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+
+}
+.card-img-top{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+
+.badge {
+    font-size: 18px;
+}
+
+.card .card-body-text-center{
+    color: black;
+    align-content: center;
+}
